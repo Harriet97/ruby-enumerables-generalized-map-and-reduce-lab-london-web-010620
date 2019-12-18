@@ -22,7 +22,7 @@ def reduce(array, sv = nil)
     sum = yield(sum, array[counter])
     counter += 1
   end
-  new 
+  sum 
 end
 
 
